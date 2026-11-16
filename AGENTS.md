@@ -15,7 +15,7 @@ PATH=../leopard-xbps/out:$PATH ninja pack
 ```
 
 - Compiler: `clang`, freestanding flags from `gen_ninja.py`.
-- CRT: `../XJ380-SDK/out/crt/lib/x86_64/{crt0.o,start.o,libxact.a,liballoc.a}`.
+- CRT: `../leopard-sdk/out/crt/lib/x86_64/{crt0.o,start.o,libxact.a,liballoc.a}`.
 - `gen_ninja.py` discovers all `src/*.c` files and archives them into
   `out/liblpcurses.a`; keep one translation unit per functional area.
 - `ninja pack` stages `system/include/curses.h`, `system/include/ncurses.h`,

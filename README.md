@@ -29,7 +29,7 @@ Outputs:
 The library is freestanding and links against the XJ380 SDK CRT:
 
 ```text
-../XJ380-SDK/out/crt/lib/x86_64/
+../leopard-sdk/out/crt/lib/x86_64/
     crt0.o start.o libxact.a liballoc.a
 ```
 

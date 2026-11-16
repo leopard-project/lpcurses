@@ -20,8 +20,8 @@ LIB = OUT / "liblpcurses.a"
 DEMO_OBJ = OUT / "demo.c.o"
 DEMO = OUT / "lpcurses-demo.elf"
 
-# XACT CRT (../XJ380-SDK/out/crt): startup objects + static runtime + allocator.
-CRT_ROOT = ROOT / ".." / "XJ380-SDK"
+# XACT CRT (../leopard-sdk/out/crt): startup objects + static runtime + allocator.
+CRT_ROOT = ROOT / ".." / "leopard-sdk"
 INC = CRT_ROOT / "out" / "crt" / "include"
 LIBDIR = CRT_ROOT / "out" / "crt" / "lib" / "x86_64"
 CRT_OBJS = [LIBDIR / "crt0.o", LIBDIR / "start.o"]
