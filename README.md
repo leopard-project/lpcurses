@@ -24,7 +24,7 @@ Outputs:
 
 - `out/liblpcurses.a`
 - `out/lpcurses-demo.elf`
-- `out/lpcurses-1.0_1.x86_64.xbps`
+- `out/lpcurses-1.0_2.x86_64.xbps`
 
 The library is freestanding and links against the XJ380 SDK CRT:
 

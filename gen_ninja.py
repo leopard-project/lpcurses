@@ -28,7 +28,7 @@ CRT_OBJS = [LIBDIR / "crt0.o", LIBDIR / "start.o"]
 CRT_LIBS = [LIBDIR / "libxact.a", LIBDIR / "liballoc.a"]
 
 PKGNAME = "lpcurses"
-PKGVER = "1.0_1"
+PKGVER = "1.0_2"
 ARCH = "x86_64"
 DESC = "Small ncurses-source-compatible curses subset for LeopardOS"
 PKG_OUT = OUT / f"{PKGNAME}-{PKGVER}.{ARCH}.xbps"
